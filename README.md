@@ -1,3 +1,8 @@
-# BrainsterChallenges_DanielaDamjanoskaFE1
+# Challenge 07 - Bootstrap
 
-This Project consists of all the Challenges done during the Brainster Academy - Front-end Development.
+For this challenge, you’ll need to create a fully responsive page using
+bootstrap.
+The navbar is fixed to the top and must open the navbar links when clicked
+on the hamburger menu, on mobile.
+There is a plus functionality that you will have as a challenge to make, and
+that is the scrollspy.

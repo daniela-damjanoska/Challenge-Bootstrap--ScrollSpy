@@ -1,0 +1,83 @@
+body {
+    font-size: 12px;
+    padding-top: 56px;
+}
+
+.bg-intro {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/home.jpg") no-repeat center / cover;
+    height: calc(100vh - 56px);
+}
+
+.fa-ul li i {
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.bg-intro .fa-ul {
+    padding-right: 30px;
+    margin-left: 50px;
+}
+
+.col-lg-6 .fa-ul {
+    margin-left: 60px;
+} 
+
+.bg-intro .custom-col-2 input[placeholder],
+button.btn,
+a.btn {
+    font-size: 0.7rem;
+}
+
+.plus-74 {
+    padding-top: 74px;
+}
+.minus-74 {
+    margin-top: -74px;
+}
+
+.text-red {
+    color: #ff0313;
+}
+
+.bg-dark {
+    background-color: #343a40;
+}
+
+.bg-violet {
+    background-color: #4900d5;
+}
+
+@media (min-width: 319px) and (max-width: 767px) {
+    .plus-210 {
+        padding-top: 210px;
+    }
+    .minus-210 {
+        margin-top: -210px;
+    }
+}
+
+@media (min-width: 319px) and (max-width: 1023px) {
+    .custom-col-1 {
+        display: none;
+    }
+}
+
+@media (min-width: 1023px) {        
+    .custom-col-1,
+    .custom-col-2 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+
+    .custom-col-1 {
+    max-width: 63%;
+    flex: 0 0 63%;
+    }
+
+    .custom-col-2 {
+    max-width: 37%;
+    flex: 0 0 37%;
+    }
+}
