@@ -28,10 +28,10 @@ a.btn {
     font-size: 0.7rem;
 }
 
-.plus-74 {
+.plus-md {
     padding-top: 74px;
 }
-.minus-74 {
+.minus-md {
     margin-top: -74px;
 }
 
@@ -39,19 +39,15 @@ a.btn {
     color: #ff0313;
 }
 
-.bg-dark {
-    background-color: #343a40;
-}
-
 .bg-violet {
     background-color: #4900d5;
 }
 
 @media (min-width: 319px) and (max-width: 767px) {
-    .plus-210 {
+    .plus {
         padding-top: 210px;
     }
-    .minus-210 {
+    .minus {
         margin-top: -210px;
     }
 }
