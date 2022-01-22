@@ -4,7 +4,8 @@ body {
 }
 
 .bg-intro {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/home.jpg") no-repeat center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('./images/home.jpg') no-repeat center / cover;
     height: calc(100vh - 56px);
 }
 
@@ -20,7 +21,7 @@ body {
 
 .col-lg-6 .fa-ul {
     margin-left: 60px;
-} 
+}
 
 .bg-intro .custom-col-2 input[placeholder],
 button.btn,
@@ -43,37 +44,28 @@ a.btn {
     background-color: #4900d5;
 }
 
-@media (min-width: 319px) and (max-width: 767px) {
-    .plus {
-        padding-top: 210px;
-    }
-    .minus {
-        margin-top: -210px;
-    }
-}
-
 @media (min-width: 319px) and (max-width: 1023px) {
     .custom-col-1 {
         display: none;
     }
 }
 
-@media (min-width: 1023px) {        
+@media (min-width: 1023px) {
     .custom-col-1,
     .custom-col-2 {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     .custom-col-1 {
-    max-width: 63%;
-    flex: 0 0 63%;
+        max-width: 63%;
+        flex: 0 0 63%;
     }
 
     .custom-col-2 {
-    max-width: 37%;
-    flex: 0 0 37%;
+        max-width: 37%;
+        flex: 0 0 37%;
     }
 }
